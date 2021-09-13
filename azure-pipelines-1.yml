@@ -1,0 +1,5 @@
+- task: IISWebAppDeploymentOnMachineGroup@0
+  inputs:
+    WebSiteName: 'Test'
+    VirtualApplication: 'test'
+    Package: '$(System.DefaultWorkingDirectory)\**\*.zip'
